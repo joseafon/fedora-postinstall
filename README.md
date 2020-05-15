@@ -20,7 +20,7 @@ Fedora OS
 - cd fedora-postinstall-master
 
 ## Setup
-- chmod 770 netbsd-mailserver.sh
+- chmod 770 fedora-postinstall.sh
 
 ## Run
 sh fedora-postinstall.sh
