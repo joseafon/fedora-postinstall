@@ -84,10 +84,8 @@ dnf -y install VirtualBox
 usermod -a -G vboxusers $USER
 
 clear
-
-wget https://download.virtualbox.org/virtualbox/6.1.6/Oracle_VM_VirtualBox_Extension_Pack-6.1.6.vbox-extpack
 echo
-echo "Por favor no olvide de instalar el Oracle_VM_VirtualBox_Extension_Pack que se encuentra en este mismo directorio"
+echo "Por favor no olvide de instalar el Oracle_VM_VirtualBox_Extension_Pack"
 
 sleep 3
 
