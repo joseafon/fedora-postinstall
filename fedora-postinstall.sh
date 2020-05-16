@@ -73,21 +73,7 @@ done
 
 clear
 
-wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
-
 dnf -y update
-
-dnf -y install binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms qt5-qtx11extras libxkbcommon
-
-dnf -y install VirtualBox
-
-usermod -a -G vboxusers $USER
-
-clear
-echo
-echo "Por favor no olvide de instalar el Oracle_VM_VirtualBox_Extension_Pack"
-
-sleep 3
 
 echo "Reiniciando el sistema para aplicar los cambios"
 
