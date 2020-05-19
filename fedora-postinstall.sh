@@ -33,7 +33,9 @@ dnf -y install converseen cabextract transmageddon vlc dia keepassxc
 dnf -y install soundconverter audacity-freeworld nano ntfs-3g qbittorrent gparted
 dnf -y install tlp tlp-rdw firewall-config filezilla
 dnf -y install thunderbird pdfmod deja-dup deja-dup-nautilus pitivi
+dnf -y install libreoffice-langpack-es
 
+dnf -y install balena-etcher-electron
 
 curl -o /etc/yum.repos.d/skype-stable.repo https://repo.skype.com/rpm/stable/skype-stable.repo
 dnf -y install skypeforlinux
@@ -41,6 +43,9 @@ dnf -y install skypeforlinux
 dnf -y install fedora-workstation-repositories
 dnf config-manager --set-enabled google-chrome
 dnf -y install google-chrome-stable
+
+wget https://balena.io/etcher/static/etcher-rpm.repo -O /etc/yum.repos.d/etcher-rpm.repo
+dnf -y install balena-etcher-electron
 
 clear
 
